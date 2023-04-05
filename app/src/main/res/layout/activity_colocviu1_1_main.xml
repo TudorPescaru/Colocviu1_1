@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Colocviu1_1MainActivity">
+
+    <Button
+        android:id="@+id/button_north"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/north"
+        android:layout_gravity="center">
+    </Button>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_east"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/east"
+            android:layout_gravity="start">
+        </Button>
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+        </Space>
+
+        <Button
+            android:id="@+id/button_west"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/west"
+            android:layout_gravity="end">
+        </Button>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_south"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/south"
+        android:layout_gravity="center">
+    </Button>
+
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/north_east_south_west">
+    </TextView>
+
+    <Button
+        android:id="@+id/button_navigate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/navigate_to_secondary_activity"
+        android:gravity="center"
+        android:layout_marginHorizontal="10dp">
+    </Button>
+
+</LinearLayout>
