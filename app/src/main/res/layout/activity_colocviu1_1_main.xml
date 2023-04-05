@@ -56,7 +56,7 @@
         android:id="@+id/text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/north_east_south_west">
+        android:text="">
     </TextView>
 
     <Button
